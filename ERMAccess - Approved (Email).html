@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>EMR ACCESS APPROVED</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="margin: 0; padding: 0; font-family: Nunito, sans-serif">
+    <table
+      align="center"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      style="border-collapse: collapse; max-width: 500px;"
+    >
+      <tr >
+        <!-- Header image row -->
+        <td style="padding: 10px 0 10px 0">
+          <img
+            src="./header-emr-approved.png"
+            alt="NJ Sharing Network"
+            style="display: block; max-width: 1020px; width: 100vw;"
+            draggable="false"
+          />
+        </td>
+        <!-- End of header image row -->
+      </tr>
+
+      <tr>
+        <!-- Time Row -->
+        <td style="padding: 10px 0 10px 0" align="right">
+          <span style="font-size: 12px; font-weight: 600; padding: 0 8px"
+            >{DateTime}</span
+          >
+        </td>
+        <!-- End of Time Row -->
+      </tr>
+
+            <tr>
+              <!-- Review from to Row -->
+              <td style="padding: 8px" align="left">
+                  <p>
+                    <b>{EMRAdminName}</b>,
+
+                    There is a new EMR approval.
+
+                    <p><b>{DisplayName}</b> - <b>{HospitalGroupName}</b>.</p>
+
+                    You can access the link below to set the username and password.
+
+                    <br/>
+
+                    
+                  </p>
+                  <a href="{link}" style="border: 1px solid rgb(197, 197, 197); margin: 32px 0 12px; padding: 10px 12px; color: #006ab6; cursor: pointer; width: fit-content;">
+                      {link}
+                  </a>
+              </td>
+              <!-- End of Review from to Row -->
+            </tr>
+
+      <tr>
+        <!-- Footer row -->
+        <td style="padding: 16px 0 5px 0">
+          <img
+            src="./footer.png"
+            alt="To Honor. To Remember. To Give Hope."
+            draggable="false"
+            style="display: block; max-width: 1020px; width: 100vw;"  
+          />
+        </td>
+        <!-- End of footer row -->
+      </tr>
+    </table>
+  </body>
+</html>
